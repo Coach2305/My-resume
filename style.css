@@ -1,0 +1,140 @@
+html {
+  background: url(https://i.gifer.com/7TCS.gif) no-repeat; 
+  height: 100%; 
+  width: 100%;
+  background-position: center center;
+  background-size: cover ;
+  background-attachment: fixed;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .top-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .top-nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  
+  .resume-title {
+    text-align: center;
+    margin: 60px;
+    color: #ffffff;
+    font-size: 18pt;
+}  
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .about-img {
+    max-width: 40%;
+    box-shadow: 0 0 10px #444;
+    border-radius: 10%;
+    }
+    
+    .about-text {
+    max-width: 50%;
+    padding: 0 50px;
+    }
+    
+    
+    .experience-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .experience-img {
+    max-width: 40%;
+    border-radius: 10%;
+    padding: 0 10px;
+    }
+
+    .coach{
+      font-size: 12t;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+    .experience-text {
+    max-width: 50%;
+    padding: 0 50px;
+    }
+    
+    .text-exp{
+      text-align: center;
+    }
+    .prof_exp{
+      font-size: 10pt;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .personal-qualities{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 12pt;
+    }
+    
+    .bottom-nav {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    }
+    
+    .bottom-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    .bottom-nav li {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .bottom-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
